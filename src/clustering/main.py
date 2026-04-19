@@ -1,7 +1,7 @@
 import time
-from clustering.utils import readVectorsSeq
-from clustering.clustering import kcenter, kmeansPP, kmeansObj, assign_weights, expand_weighted_points
-from clustering.visualization import visualize_clusters
+from src.clustering.utils import readVectorsSeq
+from src.clustering.clustering import kcenter, kmeansPP, kmeansObj, assign_weights, expand_weighted_points
+from src.clustering.visualization import visualize_clusters
 
 
 def main():

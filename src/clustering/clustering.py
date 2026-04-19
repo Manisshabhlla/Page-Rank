@@ -1,6 +1,6 @@
 import random
 import numpy as np
-from clustering.utils import squared_distance
+from src.clustering.utils import squared_distance
 
 
 def kcenter(P, k):

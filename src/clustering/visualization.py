@@ -20,4 +20,5 @@ def visualize_clusters(P, centers, title):
     plt.scatter(reduced_centers[:, 0], reduced_centers[:, 1], s=100, marker='x')
 
     plt.title(title)
+    plt.savefig(f"images/{title}.png")
     plt.show()

@@ -91,6 +91,7 @@ def plot(pr, k=10):
     plt.xlabel("Node")
     plt.ylabel("Score")
     plt.tight_layout()
+    plt.savefig("images/PageRank_Converged.png")
     plt.show()
 
 
